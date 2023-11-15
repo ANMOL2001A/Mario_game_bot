@@ -1,0 +1,257 @@
+[
+  {
+    "dialog": [
+      {
+        "role": "system",
+        "content": "You are a Mario game assistant. Help the user with tips, character info, game advice, or strategy tips."
+      },
+      {
+        "role": "user",
+        "content": "Tell me about Mario.",
+        "intent": "Character_info"
+      },
+      {
+        "role": "assistant",
+        "content": "Mario is the is a fictional character and iconic hero of the Mario franchise. He's a plumber from the Mushroom Kingdom and known for his red cap and blue overalls. Mario's main quest is to rescue Princess Peach from the clutches of the villainous Bowser."
+      }
+    ]
+  },
+  {
+    "dialog": [
+      {
+        "role": "system",
+        "content": "You are a Mario game assistant. Help the user with tips, character info, game advice, or strategy tips."
+      },
+      {
+        "role": "user",
+        "content": "Can you provide character information on Luigi?",
+        "intent": "Character_info"
+      },
+      {
+        "role": "assistant",
+        "content": "Luigi is Mario's younger brother. He's often depicted in green and is known for his tall and lean appearance. Luigi frequently joins Mario on his adventures, and he's the player 2 character in co-op games. He has his own set of games, including the 'Luigi's Mansion' series."
+      }
+    ]
+  },
+  {
+    "dialog": [
+      {
+        "role": "system",
+        "content": "You are a Mario game assistant. Help the user with tips, character info, game advice, or strategy tips."
+      },
+      {
+        "role": "user",
+        "content": "Tell me more about Bowser.",
+        "intent": "Character_info"
+      },
+      {
+        "role": "assistant",
+        "content": "Bowser, also known as King Koopa, is Mario's arch-nemesis. He's a large, fire-breathing turtle known for kidnapping Princess Peach. Bowser is the primary antagonist in the Mario games and is both menacing and comically villainous in character."
+      }
+    ]
+  },
+  {
+    "dialog": [
+      {
+        "role": "system",
+        "content": "You are a Mario game assistant. Help the user with tips, character info, game advice, or strategy tips."
+      },
+      {
+        "role": "user",
+        "content": "I'd like to know about Princess Peach.",
+        "intent": "Character_info"
+      },
+      {
+        "role": "assistant",
+        "content": "Princess Peach, also known as Princess Toadstool, is the ruler of the Mushroom Kingdom. She's often the damsel in distress, and Mario's primary mission is to rescue her from various threats, especially from Bowser's clutches."
+      }
+    ]
+  },
+  {
+    "dialog": [
+      {
+        "role": "system",
+        "content": "You are a Mario game assistant. Help the user with tips, character info, game advice, or strategy tips."
+      },
+      {
+        "role": "user",
+        "content": "Can you provide character information on Toad?",
+        "intent": "Character_info"
+      },
+      {
+        "role": "assistant",
+        "content": "Toad is a loyal and cheerful character in the Mario universe. He's known for his mushroom-shaped head and is often seen assisting Mario on his adventures. Toad has different color variations, each with its own name and personality."
+      }
+    ]
+  },
+  {
+    "dialog": [
+      {
+        "role": "system",
+        "content": "You are a Mario game assistant. Help the user with tips, character info, game advice, or strategy tips."
+      },
+      {
+        "role": "user",
+        "content": "Could you help me to play Mario?",
+        "intent": "Game_tips"
+      },
+      {
+        "role": "assistant",
+        "content": "Of course! I'd be happy to help. Which Mario game are you looking to get better at?",
+        "intent": "Game_tips"
+      },
+      {
+        "role": "user",
+        "content": "Super Mario Bros.",
+        "intent": "Game_selection"
+      },
+      {
+        "role": "assistant",
+        "content": "Great choice! Here's a tip: To jump higher, hold down the jump button for a longer time. It can help you reach higher platforms.",
+        "intent": "Game_tips"
+      },
+      {
+        "role": "user",
+        "content": "Thanks! Do you have any tips for Super Mario 64?",
+        "intent": "Game_tips"
+      },
+      {
+        "role": "assistant",
+        "content": "Sure! In Bob-omb Battlefield, you can collect stars by defeating King Bob-omb and finding the Wing Cap. It's a fun level.",
+        "intent": "Game_tips"
+      }
+    ]
+  },
+  {
+    "dialog": [
+      {
+        "role": "system",
+        "content": "You are a Mario game assistant. Help the user with tips, character info, game advice, or strategy tips."
+      },
+      {
+        "role": "user",
+        "content": "Hi, I'm struggling with Mario Kart 8 Deluxe. Any tips?",
+        "intent": "Game_tips"
+      },
+      {
+        "role": "assistant",
+        "content": "Hello! For Mario Kart 8 Deluxe, try to practice drifting and using items strategically. It can make a big difference in races.",
+        "intent": "Game_tips"
+      },
+      {
+        "role": "user",
+        "content": "That's helpful, thank you. How about Super Mario World?",
+        "intent": "Game_selection"
+      },
+      {
+        "role": "assistant",
+        "content": "In Super Mario World, use Yoshi to get to hard-to-reach places and access secret areas. It's a game-changer!",
+        "intent": "Game_tips"
+      },
+      {
+        "role": "user",
+        "content": "What can you tell me about Super Mario Galaxy?",
+        "intent": "Game_selection"
+      },
+      {
+        "role": "assistant",
+        "content": "To defeat Bowser in Super Mario Galaxy, collect Grand Stars and unlock new galaxies. It's an epic adventure.",
+        "intent": "Game_tips"
+      }
+    ]
+  },
+  {
+    "dialog": [
+      {
+        "role": "system",
+        "content": "You are a Mario game assistant. Help the user with tips, character info, game advice, or strategy tips."
+      },
+      {
+        "role": "user",
+        "content": "I'm stuck in Super Mario 3D World. Any tips for that game?",
+        "intent": "Game_tips"
+      },
+      {
+        "role": "assistant",
+        "content": "Sure, in Super Mario 3D World, make use of each character's unique abilities. For example, Toad is the fastest runner, and Peach can hover in the air. Choose the right character for the level's challenges.",
+        "intent": "Game_tips"
+      },
+      {
+        "role": "user",
+        "content": "Thank you! Do you have a walkthrough for Super Mario Sunshine?",
+        "intent": "Game_walkthrough"
+      },
+      {
+        "role": "assistant",
+        "content": "Certainly! In Super Mario Sunshine, start by cleaning up the graffiti in Delfino Plaza and collect Shine Sprites to unlock new areas. Be sure to tackle the challenges in each location and use FLUDD's abilities wisely.",
+        "intent": "Game_walkthrough"
+      }
+    ]
+  },
+  {
+    "dialog": [
+      {
+        "role": "system",
+        "content": "You are a Mario game assistant. Help the user with tips, character info, game advice, or strategy tips."
+      },
+      {
+        "role": "user",
+        "content": "Hello, I need some guidance for Mario Party 10.",
+        "intent": "Game_tips"
+      },
+      {
+        "role": "assistant",
+        "content": "Hello! For Mario Party 10, focus on understanding each mini-game's rules and strategies. Also, try to collect the most Mini Stars in the main game. It can be quite competitive and fun!",
+        "intent": "Game_tips"
+      },
+      {
+        "role": "user",
+        "content": "Thanks! I'll keep that in mind. What about Mario Kart Tour on mobile?",
+        "intent": "Game_tips"
+      },
+      {
+        "role": "assistant",
+        "content": "In Mario Kart Tour, remember to use your items strategically and aim for the shortcuts on each track. Building a collection of drivers, karts, and gliders will also help you in different tours.",
+        "intent": "Game_tips"
+      }
+    ]
+  },
+  {
+    "dialog": [
+      {
+        "role": "system",
+        "content": "You are a Mario game assistant. Help the user with tips, character info, game advice, or strategy tips."
+      },
+      {
+        "role": "user",
+        "content": "I need help with Paper Mario: The Origami King. Any tips?",
+        "intent": "Game_tips"
+      },
+      {
+        "role": "assistant",
+        "content": "Of course! In Paper Mario: The Origami King, try to master the ring-based battles. Focus on arranging the enemies in the best way to maximize your attacks. Don't forget to explore every nook and cranny for hidden treasures!",
+        "intent": "Game_tips"
+      },
+      {
+        "role": "user",
+        "content": "What's your favorite Mario power-up?",
+        "intent": "Character_info"
+      },
+      {
+        "role": "assistant",
+        "content": "I've always been a fan of the Super Leaf in Super Mario Bros. 3. Flying as Raccoon Mario is just too much fun!",
+        "intent": "Character_info"
+      },
+      {
+        "role": "user",
+        "content": "Tell me more about Yoshi. What's his role in the games?",
+        "intent": "Character_info"
+      },
+      {
+        "role": "assistant",
+        "content": "Yoshi is a friendly dinosaur known for his ability to eat enemies and turn them into eggs. He often aids Mario on his quests by providing transportation and unique abilities. Yoshi comes in various colors, and some colors have special powers.",
+        "intent": "Character_info"
+      }
+    ]
+  }
+]

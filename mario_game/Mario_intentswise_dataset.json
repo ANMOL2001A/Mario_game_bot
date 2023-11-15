@@ -1,0 +1,321 @@
+{
+    "intents": [
+        {
+            "tag": "greeting",
+            "patterns": [
+              "Hi",
+              "Hey",
+              "How are you",
+              "Is anyone there?",
+              "Hello",
+              "Good day"
+            ],
+            "responses": [
+              "Hey :-)",
+              "Hello, thanks for visiting",
+              "Hi there, what can I do for you?",
+              "Hi there, how can I help?"
+            ]
+          },
+          {
+            "tag": "goodbye",
+            "patterns": ["Bye", "See you later", "Goodbye"],
+            "responses": [
+              "See you later, thanks for visiting",
+              "Have a nice day",
+              "Bye! Come back again soon."
+            ]
+          },
+          {
+            "tag": "thanks",
+            "patterns": ["Thanks", "Thank you", "That's helpful", "Thank's a lot!"],
+            "responses": ["Happy to help!", "Any time!", "My pleasure"]
+          },
+        {
+            "tag": "Mario_info",
+            "patterns": [
+                "Tell me about Mario.",
+                "Who is Mario?",
+                "What can you tell me about Mario's character?",
+                "I'd like to know more about Mario.",
+                "What is Mario's background?",
+                "Tell me about Mario from the Mario game series.",
+                "Give me information about Mario's character.",
+                "Who is the main character in the Mario games?",
+                "Tell me about the iconic character in Mario games.",
+                "I'm curious about Mario. Can you provide information?",
+                "What's Mario's story in the Mario universe?",
+                "Who is the hero of the Mario franchise?",
+                "Tell me about the character Mario.",
+                "What do you know about Mario in the Mario game series?",
+                "Can you provide character information on Mario?",
+                "What's the role of Mario in the Mario games?"
+            ],
+            "responses": [
+                "Mario is a fictional character and the iconic hero of the Mario franchise. He's a plumber from the Mushroom Kingdom and is known for his red cap and blue overalls. Mario's main quest is to rescue Princess Peach from the clutches of the villainous Bowser.",
+                "Mario, often referred to as the 'Super Mario,' is the protagonist of the Mario game series. He's known for his bravery and adventurous spirit, and he frequently embarks on quests to save Princess Peach from various threats."
+            ]
+        },
+        {
+            "tag": "Luigi_info",
+            "patterns": [
+                "Tell me about Luigi.",
+                "Who is Luigi in the Mario games?",
+                "Can you provide character information on Luigi?",
+                "What's Luigi's role in the Mario series?",
+                "I'd like to know more about Luigi.",
+                "Who is Mario's brother, Luigi?",
+                "Give me information about Luigi's character.",
+                "Tell me about the character Luigi.",
+                "Luigi's background in the Mario games?",
+                "What can you tell me about Luigi?",
+                "Luigi's character details, please."
+            ],
+            "responses": [
+                "Luigi is Mario's younger brother. He's often depicted in green and is known for his tall and lean appearance. Luigi frequently joins Mario on his adventures and is the player 2 character in co-op games. He also has his own set of games, including the 'Luigi's Mansion' series.",
+                "In the Mario universe, Luigi is Mario's loyal brother and a courageous character in his own right. He often takes on challenging adventures alongside Mario, and he's known for his green attire and his role as Player 2 in many games."
+            ]
+        },
+        {
+            "tag": "Bowser_info",
+            "patterns": [
+                "Tell me more about Bowser.",
+                "Who is Bowser in the Mario games?",
+                "Can you provide character information on Bowser?",
+                "What's Bowser's role in the Mario series?",
+                "I'd like to know more about Bowser.",
+                "Who is the primary antagonist, Bowser?",
+                "Give me information about Bowser's character.",
+                "Tell me about the character Bowser.",
+                "Bowser's background in the Mario games?",
+                "What can you tell me about Bowser?",
+                "Bowser's character details, please."
+            ],
+            "responses": [
+                "Bowser, also known as King Koopa, is Mario's arch-nemesis. He's a large, fire-breathing turtle known for kidnapping Princess Peach. Bowser is the primary antagonist in the Mario games and is both menacing and comically villainous in character.",
+                "In the Mario series, Bowser is the primary antagonist and the main villain. He's a formidable foe, known for his size and his relentless pursuit of Princess Peach. He often devises elaborate plans to thwart Mario's efforts."
+            ]
+        },
+        {
+            "tag": "Peach_info",
+            "patterns": [
+                "I'd like to know about Princess Peach.",
+                "Who is Princess Peach in the Mario games?",
+                "Can you provide character information on Princess Peach?",
+                "What's Princess Peach's role in the Mario series?",
+                "Tell me more about Princess Peach.",
+                "Who is Princess Peach, the ruler of the Mushroom Kingdom?",
+                "Give me information about Princess Peach's character.",
+                "Tell me about the character Princess Peach.",
+                "Princess Peach's background in the Mario games?",
+                "What can you tell me about Princess Peach?",
+                "Princess Peach's character details, please."
+            ],
+            "responses": [
+                "Princess Peach, also known as Princess Toadstool, is the ruler of the Mushroom Kingdom. She's often the damsel in distress, and Mario's primary mission is to rescue her from various threats, especially from Bowser's clutches.",
+                "In the Mario games, Princess Peach is the kind and gentle ruler of the Mushroom Kingdom. She's a central character often in need of rescue, and she plays a significant role in the Mario series as both a royal leader and a recurring damsel in distress."
+            ]
+        },
+        {
+            "tag": "Toad_info",
+            "patterns": [
+                "Can you provide character information on Toad?",
+                "What's Toad's role in the Mario series?",
+                "I'd like to know more about Toad.",
+                "Who is Toad, the loyal character in the Mario games?",
+                "Give me information about Toad's character.",
+                "Tell me about the character Toad.",
+                "Toad's background in the Mario games?",
+                "What can you tell me about Toad?",
+                "Toad's character details, please."
+            ],
+            "responses": [
+                "Toad is a loyal and cheerful character in the Mario universe. He's known for his mushroom-shaped head and is often seen assisting Mario on his adventures. Toad has different color variations, each with its own name and personality.",
+                "Toad is a friendly and helpful character in the Mario series. He's recognizable by his mushroom-shaped head and colorful vest. Toad often plays a supportive role in Mario's adventures and comes in various color variations, each with a unique personality."
+            ]
+        },
+        {
+            "tag": "Wario_info",
+            "patterns": [
+                "What can you tell me about Wario?",
+                "Tell me about Wario from the Mario series.",
+                "Who is Wario in the Mario games?",
+                "Can you provide character information on Wario?",
+                "What's Wario's role in the Mario series?",
+                "I'd like to know more about Wario.",
+                "Give me information about Wario's character.",
+                "Tell me about the character Wario.",
+                "Wario's background in the Mario games?",
+                "Wario's character details, please."
+            ],
+            "responses": [
+                "Wario is Mario's rival and often portrayed as an antagonist. He's known for his greed and distinctive yellow and purple attire. Wario has his own series of games, including the 'Wario Land' and 'WarioWare' series.",
+                "Wario is a character with a penchant for mischief and wealth. He often acts as a rival to Mario and is known for his distinctive yellow and purple outfit. Wario has his own series of games with unique gameplay, including the 'Wario Land' and 'WarioWare' series."
+            ]
+        },
+        {
+            "tag": "Daisy_info",
+            "patterns": [
+                "Tell me about Daisy in the Mario series.",
+                "Who is Daisy in the Mario games?",
+                "Can you provide character information on Daisy?",
+                "What's Daisy's role in the Mario series?",
+                "I'd like to know more about Daisy.",
+                "Give me information about Daisy's character.",
+                "Tell me about the character Daisy.",
+                "Daisy's background in the Mario games?",
+                "What can you tell me about Daisy?",
+                "Daisy's character details, please."
+            ],
+            "responses": [
+                "Daisy is a princess in the Mario series and a close friend of Princess Peach. She's known for her tomboyish and sporty personality. Daisy often appears in sports-themed Mario games.",
+                "Daisy is a spirited and athletic character in the Mario universe. She's a princess and a close friend of Princess Peach. Daisy often participates in sports-themed Mario games and brings her tomboyish and competitive spirit to the Mushroom Kingdom."
+            ]
+        },
+        {
+            "tag": "Rosalina_info",
+            "patterns": [
+                "Who is Rosalina in the Mario games?",
+                "Can you provide character information on Rosalina?",
+                "Tell me about Rosalina's character.",
+                "What's Rosalina's role in the Mario series?",
+                "I'd like to know more about Rosalina.",
+                "Give me information about Rosalina.",
+                "Tell me about the character Rosalina.",
+                "Rosalina's background in the Mario games?",
+                "What can you tell me about Rosalina?",
+                "Rosalina's character details, please."
+            ],
+            "responses": [
+                "Rosalina is a character associated with the 'Super Mario Galaxy' series. She's a cosmic observatory operator and is known for her connection to the stars. Rosalina plays a key role in the story of 'Super Mario Galaxy'.",
+                "Rosalina is a celestial character with a deep connection to the stars in the Mario universe. She serves as the cosmic observatory operator in the 'Super Mario Galaxy' series and plays a significant role in the game's storyline."
+            ]
+        },
+        {
+            "tag": "Waluigi_info",
+            "patterns": [
+                "I'm curious about Waluigi. Tell me more about him.",
+                "Who is Waluigi in the Mario games?",
+                "Can you provide character information on Waluigi?",
+                "What's Waluigi's role in the Mario series?",
+                "Tell me about Waluigi's character.",
+                "I'd like to know more about Waluigi.",
+                "Give me information about Waluigi.",
+                "Tell me about the character Waluigi.",
+                "Waluigi's background in the Mario games?",
+                "What can you tell me about Waluigi?",
+                "Waluigi's character details, please."
+            ],
+            "responses": [
+                "Waluigi is a character often depicted as a rival to Luigi. He's known for his lanky appearance and purple attire. Waluigi typically appears in Mario spin-off games and is associated with mischief.",
+                "Waluigi is a mischievous and often comical character in the Mario series. He's portrayed as a rival to Luigi and is recognized by his tall and lanky appearance, as well as his purple clothing. Waluigi frequently appears in Mario spin-off games and is known for his scheming nature."
+            ]
+        },
+        {
+            "tag": "Donkey_Kong_info",
+            "patterns": [
+                "What's the background story of Donkey Kong in the Mario universe?",
+                "Tell me about the character Donkey Kong.",
+                "Who is Donkey Kong in the Mario games?",
+                "Can you provide character information on Donkey Kong?",
+                "What's Donkey Kong's role in the Mario series?",
+                "I'd like to know more about Donkey Kong.",
+                "Give me information about Donkey Kong's character.",
+                "Tell me about Donkey Kong.",
+                "Donkey Kong's background in the Mario games?",
+                "What can you tell me about Donkey Kong?",
+                "Donkey Kong's character details, please."
+            ],
+            "responses": [
+                "Donkey Kong is a powerful ape and the original antagonist of the early arcade game 'Donkey Kong'. He later became a friendly character and a member of the Kong family. Donkey Kong has his own series of games, including the 'Donkey Kong Country' series.",
+                "Donkey Kong, originally known as an antagonist, is a powerful and iconic ape character in the Mario series. He made his debut in the early arcade game 'Donkey Kong' and later transformed into a friendly character. Donkey Kong is a member of the Kong family and stars in his own series of games, including the 'Donkey Kong Country' series."
+            ]
+        },
+        {
+            "tag": "Yoshi_info",
+            "patterns": [
+                "Tell me about the character Yoshi.",
+                "Who is Yoshi in the Mario games?",
+                "Can you provide character information on Yoshi?",
+                "What's Yoshi's role in the Mario series?",
+                "I'd like to know more about Yoshi.",
+                "Give me information about Yoshi's character.",
+                "Tell me about the character Yoshi from the Mario games.",
+                "Yoshi's background in the Mario games?",
+                "What can you tell me about Yoshi?",
+                "Yoshi's character details, please."
+            ],
+            "responses": [
+                "Yoshi is a friendly dinosaur known for his ability to eat enemies and turn them into eggs. He often aids Mario on his quests by providing transportation and unique abilities. Yoshi comes in various colors, and some colors have special powers.",
+                "Yoshi is a beloved dinosaur character in the Mario universe. He's known for his unique ability to eat enemies and turn them into eggs, which can be used as projectiles. Yoshi frequently assists Mario on his quests and comes in various colors, each with its own special powers."
+            ]
+        }, 
+        {
+            "tag": "Mario_tips",
+            "patterns": [
+                "Give me some tips for playing as Mario.",
+                "Any strategies for success with Mario?",
+                "What are the best power-ups for Mario?",
+                "Share some Mario gameplay tips.",
+                "How to navigate challenging levels with Mario?",
+                "Tips for defeating Bowser with Mario?",
+                "Any secrets to discover with Mario?",
+                "What's the best approach when playing as Mario?",
+                "Share some advanced techniques for playing Mario.",
+                "How to maximize Mario's abilities in the game?",
+                "Any hidden features or shortcuts with Mario?"
+            ],
+            "responses": [
+                "To excel with Mario, practice using power-ups like the Super Mushroom and Fire Flower. These enhance Mario's abilities and provide advantages in various situations.",
+                "When facing Bowser, timing is crucial. Learn his attack patterns and wait for the right moments to strike. Utilize power-ups like the Starman for added advantage.",
+                "Navigate challenging levels with Mario by mastering his jump. Practice precise jumps to overcome obstacles and enemies effectively.",
+                "Experiment with different power-ups for Mario to find the ones that suit your playstyle. Each power-up offers unique advantages in different scenarios.",
+                "Discovering secrets often involves exploring every corner of the level. Break blocks, jump on pipes, and be thorough in your exploration to find hidden pathways and rewards."
+            ]
+        },
+        {
+            "tag": "Luigi_tips",
+            "patterns": [
+                "Give me some tips for playing as Luigi.",
+                "Any strategies for success with Luigi?",
+                "What are the best power-ups for Luigi?",
+                "Share some Luigi gameplay tips.",
+                "How to navigate challenging levels with Luigi?",
+                "Tips for defeating enemies with Luigi?",
+                "Any secrets to discover with Luigi?",
+                "What's the best approach when playing as Luigi?",
+                "Share some advanced techniques for playing Luigi.",
+                "How to maximize Luigi's abilities in the game?",
+                "Any hidden features or shortcuts with Luigi?"
+            ],
+            "responses": [
+                "Luigi's high jump can be advantageous in reaching higher platforms. Use it strategically to access hidden areas and power-ups.",
+                "Experiment with Luigi's unique abilities, such as his floaty jump. This can help in precise navigation and avoiding obstacles.",
+                "When facing tough enemies, use power-ups like the Super Star to make Luigi temporarily invincible and defeat foes effortlessly.",
+                "Luigi's Mansion series provides a different gameplay experience. Use the Poltergust to interact with the environment and capture ghosts efficiently.",
+                "In co-op games, coordinate with Mario or other players to combine abilities and tackle challenges more effectively."
+            ]
+        },
+        {
+            "tag": "Power-ups",
+            "patterns": [
+                "Tell me about different power-ups in the Mario games.",
+                "What are the most powerful power-ups in Mario?",
+                "Give me a list of useful power-ups for Mario characters.",
+                "How to obtain and use power-ups in Mario?",
+                "What are the unique abilities of Mario power-ups?",
+                "Share strategies for using power-ups effectively in Mario games.",
+                "What's the rarest power-up in Mario?",
+                "Tips for collecting power-ups in Mario levels."
+            ],
+            "responses": [
+                "Power-ups like the Super Mushroom, Fire Flower, and Super Star are classic and offer enhanced abilities to Mario and Luigi.",
+                "Experiment with the Tanooki Suit or Cape Feather for unique flying abilities. Mastering flight can help you discover hidden secrets and shortcuts.",
+                "In some games, Yoshi acts as a power-up, offering different abilities based on the color of the Yoshi. Explore the advantages of riding Yoshi in various situations.",
+                "Certain power-ups, like the Super Leaf, provide Mario with the ability to glide. Use these wisely to overcome challenging platforming sections.",
+                "Power-ups are often hidden in blocks or obtained by defeating enemies. Break blocks, explore pipes, and defeat foes to uncover these valuable enhancements."
+            ]
+
+        }
+    ]
+}

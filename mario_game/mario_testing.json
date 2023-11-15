@@ -1,0 +1,41 @@
+[
+  {
+    "dialog": [
+      {
+        "role": "user",
+        "content": "Can you provide some strategic tips for playing Mario Kart 8 Deluxe?",
+        "intent": "Strategy_tips"
+      },
+      {
+        "role": "assistant",
+        "content": "Certainly! In Mario Kart 8 Deluxe, it's important to practice drifting and get comfortable with the different types of boosts you can achieve while drifting. Also, learn to use items strategically. For example, hold onto defensive items like the Super Horn to protect yourself from incoming attacks, and use offensive items when you're in a good position to hit opponents. Finally, pay attention to the map and plan your moves to avoid hazards and get the best item boxes."
+      }
+    ]
+  },
+  {
+    "dialog": [
+      {
+        "role": "user",
+        "content": "I'd like some tips for beating challenging levels in Super Mario World.",
+        "intent": "Strategy_tips"
+      },
+      {
+        "role": "assistant",
+        "content": "Of course! In Super Mario World, some levels can be quite challenging. It's essential to practice precision jumps and get familiar with the mechanics of power-ups like the Cape Feather. Additionally, explore each level thoroughly to find hidden secrets and power-ups that can make tough levels more manageable. And don't be afraid to take your time \u2013 sometimes, patience and careful planning are key to success."
+      }
+    ]
+  },
+  {
+    "dialog": [
+      {
+        "role": "user",
+        "content": "I'm looking for some strategic advice in Mario Kart Tour. Any tips?",
+        "intent": "Strategy_tips"
+      },
+      {
+        "role": "assistant",
+        "content": "In Mario Kart Tour, it's crucial to learn the tracks and master the drift mechanics. Take advantage of each track's unique features and shortcuts. Use your items strategically \u2013 if you're in the lead, consider holding defensive items, and if you're behind, use offensive items to catch up. Building a diverse collection of drivers, karts, and gliders is also important as it can give you advantages on different tours. And don't forget to complete the daily challenges for rewards."
+      }
+    ]
+  }
+]
