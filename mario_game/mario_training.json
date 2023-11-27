@@ -1,257 +1,208 @@
 [
   {
+    "tag": "mario_info",
     "dialog": [
       {
-        "role": "system",
-        "content": "You are a Mario game assistant. Help the user with tips, character info, game advice, or strategy tips."
+        "question": "Tell me about Mario.",
+        "answer": "Mario is a fictional character and the iconic hero of the Mario franchise. He's a plumber from the Mushroom Kingdom, known for his red cap and blue overalls. Mario's main quest is to rescue Princess Peach from the clutches of the villainous Bowser."
       },
       {
-        "role": "user",
-        "content": "Tell me about Mario.",
-        "intent": "Character_info"
+        "question": "What does Mario do?",
+        "answer": "Mario is a skilled plumber, but he's best known for his adventures as a hero. He embarks on various quests to save Princess Peach and the Mushroom Kingdom from the threats posed by enemies like Bowser."
       },
       {
-        "role": "assistant",
-        "content": "Mario is the is a fictional character and iconic hero of the Mario franchise. He's a plumber from the Mushroom Kingdom and known for his red cap and blue overalls. Mario's main quest is to rescue Princess Peach from the clutches of the villainous Bowser."
+        "question": "Who is the enemy of Mario?",
+        "answer": "Bowser, also known as King Koopa, is Mario's main enemy. He is a large, fire-breathing turtle who frequently kidnaps Princess Peach, leading to Mario's quests to thwart his plans."
       }
     ]
   },
   {
+    "tag": "luigi_info",
     "dialog": [
       {
-        "role": "system",
-        "content": "You are a Mario game assistant. Help the user with tips, character info, game advice, or strategy tips."
+        "question": "Tell me about Luigi.",
+        "answer": "Luigi is Mario's younger brother and a beloved character in the Mario universe. He is often depicted in green and is known for his tall and lean appearance. Luigi frequently joins Mario on his adventures and has his own set of games, including the 'Luigi's Mansion' series."
       },
       {
-        "role": "user",
-        "content": "Can you provide character information on Luigi?",
-        "intent": "Character_info"
+        "question": "What are Luigi's strengths?",
+        "answer": "Luigi is known for his exceptional jumping ability, surpassing even Mario in height. While he may be a bit timid, Luigi is a reliable ally, especially in co-op games where he serves as the player 2 character."
       },
       {
-        "role": "assistant",
-        "content": "Luigi is Mario's younger brother. He's often depicted in green and is known for his tall and lean appearance. Luigi frequently joins Mario on his adventures, and he's the player 2 character in co-op games. He has his own set of games, including the 'Luigi's Mansion' series."
+        "question": "Tell me about Luigi's Mansion.",
+        "answer": "Luigi's Mansion is a game series where Luigi takes on the role of a ghostbuster. Armed with a vacuum cleaner called the Poltergust, Luigi explores haunted mansions to rescue Mario and other captured characters."
       }
     ]
   },
   {
+    "tag": "bowser_info",
     "dialog": [
       {
-        "role": "system",
-        "content": "You are a Mario game assistant. Help the user with tips, character info, game advice, or strategy tips."
+        "question": "Tell me about Bowser.",
+        "answer": "Bowser, also known as King Koopa, is Mario's arch-nemesis. He is a large, fire-breathing turtle with a menacing and comically villainous character. Bowser's primary goal is to kidnap Princess Peach and conquer the Mushroom Kingdom."
       },
       {
-        "role": "user",
-        "content": "Tell me more about Bowser.",
-        "intent": "Character_info"
+        "question": "What are Bowser's abilities?",
+        "answer": "Bowser possesses immense strength and the ability to breathe fire. He often utilizes his size and power to create obstacles for Mario. Despite being a formidable foe, Bowser's plans are frequently thwarted by Mario's heroics."
       },
       {
-        "role": "assistant",
-        "content": "Bowser, also known as King Koopa, is Mario's arch-nemesis. He's a large, fire-breathing turtle known for kidnapping Princess Peach. Bowser is the primary antagonist in the Mario games and is both menacing and comically villainous in character."
+        "question": "Tell me about Bowser's family.",
+        "answer": "Bowser has a family, including his son Bowser Jr. and the Koopalings. Bowser Jr. is often portrayed as Bowser's heir and is determined to follow in his father's villainous footsteps, while the Koopalings are a group of seven siblings with distinct personalities and appearances."
       }
     ]
   },
   {
+    "tag": "peach_info",
     "dialog": [
       {
-        "role": "system",
-        "content": "You are a Mario game assistant. Help the user with tips, character info, game advice, or strategy tips."
+        "question": "Tell me about Princess Peach.",
+        "answer": "Princess Peach, also known as Princess Toadstool, is the ruler of the Mushroom Kingdom. She is often the damsel in distress, and Mario's primary mission is to rescue her from various threats, especially from Bowser's clutches."
       },
       {
-        "role": "user",
-        "content": "I'd like to know about Princess Peach.",
-        "intent": "Character_info"
-      },
-      {
-        "role": "assistant",
-        "content": "Princess Peach, also known as Princess Toadstool, is the ruler of the Mushroom Kingdom. She's often the damsel in distress, and Mario's primary mission is to rescue her from various threats, especially from Bowser's clutches."
+        "question": "What are Princess Peach's qualities?",
+        "answer": "Princess Peach is known for her kind and gentle nature. She possesses a magical ability called 'heart power,' which has been shown to have protective and healing properties. Despite being frequently kidnapped, Peach remains a symbol of hope and leadership in the Mushroom Kingdom."
       }
     ]
   },
   {
+    "tag": "yoshi_info",
     "dialog": [
       {
-        "role": "system",
-        "content": "You are a Mario game assistant. Help the user with tips, character info, game advice, or strategy tips."
+        "question": "Tell me about Yoshi.",
+        "answer": "Yoshi is a friendly dinosaur known for his ability to eat enemies and turn them into eggs. He often aids Mario on his quests by providing transportation and unique abilities. Yoshi comes in various colors, and some colors have special powers."
       },
       {
-        "role": "user",
-        "content": "Can you provide character information on Toad?",
-        "intent": "Character_info"
+        "question": "What are Yoshi's favorite foods?",
+        "answer": "Yoshi loves eating fruits, especially melons and berries. His diet includes a variety of delicious items, and his ability to turn enemies into eggs is a handy skill for solving puzzles and reaching high places."
       },
       {
-        "role": "assistant",
-        "content": "Toad is a loyal and cheerful character in the Mario universe. He's known for his mushroom-shaped head and is often seen assisting Mario on his adventures. Toad has different color variations, each with its own name and personality."
+        "question": "Tell me about Yoshi's Island.",
+        "answer": "Yoshi's Island is a location in the Mario universe and serves as the home of the Yoshi species. It is known for its lush green landscapes, vibrant flora, and various friendly Yoshis who assist Mario on his adventures."
       }
     ]
   },
   {
+    "tag": "toad_info",
     "dialog": [
       {
-        "role": "system",
-        "content": "You are a Mario game assistant. Help the user with tips, character info, game advice, or strategy tips."
+        "question": "Tell me about Toad.",
+        "answer": "Toad is a loyal and cheerful character in the Mario universe. He's known for his mushroom-shaped head and is often seen assisting Mario on his adventures. Toad has different color variations, each with its own name and personality."
       },
       {
-        "role": "user",
-        "content": "Could you help me to play Mario?",
-        "intent": "Game_tips"
-      },
-      {
-        "role": "assistant",
-        "content": "Of course! I'd be happy to help. Which Mario game are you looking to get better at?",
-        "intent": "Game_tips"
-      },
-      {
-        "role": "user",
-        "content": "Super Mario Bros.",
-        "intent": "Game_selection"
-      },
-      {
-        "role": "assistant",
-        "content": "Great choice! Here's a tip: To jump higher, hold down the jump button for a longer time. It can help you reach higher platforms.",
-        "intent": "Game_tips"
-      },
-      {
-        "role": "user",
-        "content": "Thanks! Do you have any tips for Super Mario 64?",
-        "intent": "Game_tips"
-      },
-      {
-        "role": "assistant",
-        "content": "Sure! In Bob-omb Battlefield, you can collect stars by defeating King Bob-omb and finding the Wing Cap. It's a fun level.",
-        "intent": "Game_tips"
+        "question": "What are Toad's responsibilities in the Mushroom Kingdom?",
+        "answer": "Toad serves various roles in the Mushroom Kingdom, from providing helpful items to Mario to assisting in the management of Princess Peach's castle. Toad is known for his resourcefulness and dedication to helping others."
       }
     ]
   },
   {
+    "tag": "wario_info",
     "dialog": [
       {
-        "role": "system",
-        "content": "You are a Mario game assistant. Help the user with tips, character info, game advice, or strategy tips."
+        "question": "Tell me about Wario.",
+        "answer": "Wario is an antihero in the Mario universe and is Mario's rival. He is known for his greed, love of treasure, and distinctive appearance, including a yellow hat and purple overalls. Wario often clashes with Mario in various adventures."
       },
       {
-        "role": "user",
-        "content": "Hi, I'm struggling with Mario Kart 8 Deluxe. Any tips?",
-        "intent": "Game_tips"
-      },
-      {
-        "role": "assistant",
-        "content": "Hello! For Mario Kart 8 Deluxe, try to practice drifting and using items strategically. It can make a big difference in races.",
-        "intent": "Game_tips"
-      },
-      {
-        "role": "user",
-        "content": "That's helpful, thank you. How about Super Mario World?",
-        "intent": "Game_selection"
-      },
-      {
-        "role": "assistant",
-        "content": "In Super Mario World, use Yoshi to get to hard-to-reach places and access secret areas. It's a game-changer!",
-        "intent": "Game_tips"
-      },
-      {
-        "role": "user",
-        "content": "What can you tell me about Super Mario Galaxy?",
-        "intent": "Game_selection"
-      },
-      {
-        "role": "assistant",
-        "content": "To defeat Bowser in Super Mario Galaxy, collect Grand Stars and unlock new galaxies. It's an epic adventure.",
-        "intent": "Game_tips"
+        "question": "What motivates Wario?",
+        "answer": "Wario is motivated by his desire for wealth and treasure. He often engages in schemes and adventures to amass riches, sometimes putting him in direct opposition to Mario. Despite his selfish nature, Wario has his own charm and humor."
       }
     ]
   },
   {
+    "tag": "koopa_info",
     "dialog": [
       {
-        "role": "system",
-        "content": "You are a Mario game assistant. Help the user with tips, character info, game advice, or strategy tips."
+        "question": "Tell me about Koopa Troopa.",
+        "answer": "Koopa Troopa is a turtle-like creature and a common enemy in the Mario universe. They are known for their distinctive shells and come in various colors. Koopa Troopas serve Bowser in his attempts to thwart Mario."
       },
       {
-        "role": "user",
-        "content": "I'm stuck in Super Mario 3D World. Any tips for that game?",
-        "intent": "Game_tips"
+        "question": "What are Koopa Troopa's abilities?",
+        "answer": "Koopa Troopas are known for their ability to retreat into their shells for protection. Mario can use their shells as weapons or jump on them to defeat them. Some Koopa Troopas also have wings, allowing them to fly for short distances."
       },
       {
-        "role": "assistant",
-        "content": "Sure, in Super Mario 3D World, make use of each character's unique abilities. For example, Toad is the fastest runner, and Peach can hover in the air. Choose the right character for the level's challenges.",
-        "intent": "Game_tips"
-      },
-      {
-        "role": "user",
-        "content": "Thank you! Do you have a walkthrough for Super Mario Sunshine?",
-        "intent": "Game_walkthrough"
-      },
-      {
-        "role": "assistant",
-        "content": "Certainly! In Super Mario Sunshine, start by cleaning up the graffiti in Delfino Plaza and collect Shine Sprites to unlock new areas. Be sure to tackle the challenges in each location and use FLUDD's abilities wisely.",
-        "intent": "Game_walkthrough"
+        "question": "Tell me about Goomba.",
+        "answer": "Goomba is a mushroom-like enemy in the Mario universe. They are common adversaries that often patrol specific areas. While not the most formidable foes, Goombas can pose a threat in large numbers or tricky terrain."
       }
     ]
   },
   {
+    "tag": "donkey_kong_info",
     "dialog": [
       {
-        "role": "system",
-        "content": "You are a Mario game assistant. Help the user with tips, character info, game advice, or strategy tips."
+        "question": "Tell me about Donkey Kong.",
+        "answer": "Donkey Kong is a powerful ape and an early antagonist in the Mario franchise. He made his first appearance in the game 'Donkey Kong' in 1981. While initially an adversary, Donkey Kong has become a friend and ally to Mario in later games."
       },
       {
-        "role": "user",
-        "content": "Hello, I need some guidance for Mario Party 10.",
-        "intent": "Game_tips"
+        "question": "What are Donkey Kong's strengths?",
+        "answer": "Donkey Kong is known for his immense strength and agility. He can perform powerful ground pounds, climb vines, and even play various musical instruments. Despite his formidable appearance, Donkey Kong is generally good-natured and friendly."
       },
       {
-        "role": "assistant",
-        "content": "Hello! For Mario Party 10, focus on understanding each mini-game's rules and strategies. Also, try to collect the most Mini Stars in the main game. It can be quite competitive and fun!",
-        "intent": "Game_tips"
-      },
-      {
-        "role": "user",
-        "content": "Thanks! I'll keep that in mind. What about Mario Kart Tour on mobile?",
-        "intent": "Game_tips"
-      },
-      {
-        "role": "assistant",
-        "content": "In Mario Kart Tour, remember to use your items strategically and aim for the shortcuts on each track. Building a collection of drivers, karts, and gliders will also help you in different tours.",
-        "intent": "Game_tips"
+        "question": "Tell me about Diddy Kong.",
+        "answer": "Diddy Kong is a smaller, more agile ape and a close friend of Donkey Kong. He is known for his speed and acrobatic skills. Diddy Kong often accompanies Donkey Kong on adventures and has his own set of games, including the 'Donkey Kong Country' series."
       }
     ]
   },
   {
+    "tag": "rosalina_info",
     "dialog": [
       {
-        "role": "system",
-        "content": "You are a Mario game assistant. Help the user with tips, character info, game advice, or strategy tips."
+        "question": "Tell me about Rosalina.",
+        "answer": "Rosalina is a celestial being and a prominent character in the Mario franchise. She first appeared in 'Super Mario Galaxy' and serves as the guardian of the cosmos. Rosalina is known for her wisdom, elegance, and connection to the Lumas."
       },
       {
-        "role": "user",
-        "content": "I need help with Paper Mario: The Origami King. Any tips?",
-        "intent": "Game_tips"
+        "question": "What are Rosalina's powers?",
+        "answer": "Rosalina possesses powerful cosmic abilities. She can manipulate space, create force fields, and even fly with the help of her magic wand. Rosalina's connection to the cosmos grants her a unique and otherworldly presence in the Mario universe."
+      }
+    ]
+  },
+  {
+    "tag": "game_strategy",
+    "dialog": [
+      {
+        "question": "What are some general game strategies for playing Mario games?",
+        "answer": "A key strategy is mastering Mario's jump, as it's crucial for navigating platforms and avoiding enemies. Additionally, explore levels thoroughly to find hidden power-ups and secrets. Learning enemy patterns and timing is also essential for success."
       },
       {
-        "role": "assistant",
-        "content": "Of course! In Paper Mario: The Origami King, try to master the ring-based battles. Focus on arranging the enemies in the best way to maximize your attacks. Don't forget to explore every nook and cranny for hidden treasures!",
-        "intent": "Game_tips"
+        "question": "Any tips for defeating tough enemies in Mario games?",
+        "answer": "For tough enemies, utilize power-ups like the Super Mushroom or Fire Flower. Each enemy may have a specific weakness, so observe their behavior and find the most effective way to defeat them. Precision jumping and well-timed attacks are often key."
       },
       {
-        "role": "user",
-        "content": "What's your favorite Mario power-up?",
-        "intent": "Character_info"
+        "question": "How can I maximize points and collectibles in Mario games?",
+        "answer": "To maximize points, aim for collecting coins, defeating enemies, and completing levels quickly. Explore bonus areas and secret passages to discover hidden items. Keep an eye out for 1-Up Mushrooms, which grant extra lives."
       },
       {
-        "role": "assistant",
-        "content": "I've always been a fan of the Super Leaf in Super Mario Bros. 3. Flying as Raccoon Mario is just too much fun!",
-        "intent": "Character_info"
+        "question": "Are there any advanced techniques for experienced players?",
+        "answer": "Advanced players can explore speedrunning techniques, aiming to complete levels in the shortest time possible. Mastering complex jumps, utilizing glitches for shortcuts, and optimizing movement are common strategies in the speedrunning community."
       },
       {
-        "role": "user",
-        "content": "Tell me more about Yoshi. What's his role in the games?",
-        "intent": "Character_info"
+        "question": "What's the best way to approach boss battles?",
+        "answer": "Boss battles often require pattern recognition and precise timing. Learn the boss's attack patterns and weaknesses. Utilize power-ups wisely, and be patient in observing the boss's movements. Sometimes, attacking during specific phases is more effective."
+      }
+    ]
+  },
+  {
+    "tag": "faqs",
+    "dialog": [
+      {
+        "question": "How do I troubleshoot technical issues in Mario games?",
+        "answer": "For technical issues, ensure your game and console are updated. Restart the game or console, and check for online forums or the game's official website for known issues and solutions. Contacting customer support is also an option."
       },
       {
-        "role": "assistant",
-        "content": "Yoshi is a friendly dinosaur known for his ability to eat enemies and turn them into eggs. He often aids Mario on his quests by providing transportation and unique abilities. Yoshi comes in various colors, and some colors have special powers.",
-        "intent": "Character_info"
+        "question": "What are the common power-ups in Mario games and where can I find them?",
+        "answer": "Common power-ups include the Super Mushroom, Fire Flower, and Super Star. You can find them in question mark blocks scattered throughout levels. Exploring thoroughly and hitting blocks with Mario's jump is the key to discovering power-ups."
+      },
+      {
+        "question": "How do I unlock hidden levels in Mario games?",
+        "answer": "To unlock hidden levels, explore secret passages, find hidden exits in certain levels, or fulfill specific conditions. Pay attention to clues within the game or refer to online guides and forums for level-specific details on unlocking hidden content."
+      },
+      {
+        "question": "Are there any shortcuts or warp zones in Mario games?",
+        "answer": "Yes, some levels feature warp zones that allow you to skip ahead. These are often found in hidden areas or behind fake walls. Experiment with different paths, and keep an eye out for unusual patterns or suspicious-looking areas."
+      },
+      {
+        "question": "What's the best strategy for collecting 1-Up Mushrooms?",
+        "answer": "To collect 1-Up Mushrooms, focus on gathering coins and finding green mushrooms hidden in blocks. Some levels may have areas with multiple 1-Up Mushrooms. Utilize power-ups like the Super Star to defeat enemies and increase your chances of earning extra lives."
       }
     ]
   }
+
+ 
 ]

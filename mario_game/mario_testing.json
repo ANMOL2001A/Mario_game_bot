@@ -1,41 +1,155 @@
 [
   {
+    "tag": "mario_info",
     "dialog": [
       {
-        "role": "user",
-        "content": "Can you provide some strategic tips for playing Mario Kart 8 Deluxe?",
-        "intent": "Strategy_tips"
+        "question": "What are the abilities of Mario?",
+        "answer": "Mario is known for his versatile abilities. He is a skilled jumper, allowing him to navigate challenging platforms. Additionally, Mario can gain power-ups like the Super Mushroom, Fire Flower, and others, each granting him unique abilities."
       },
       {
-        "role": "assistant",
-        "content": "Certainly! In Mario Kart 8 Deluxe, it's important to practice drifting and get comfortable with the different types of boosts you can achieve while drifting. Also, learn to use items strategically. For example, hold onto defensive items like the Super Horn to protect yourself from incoming attacks, and use offensive items when you're in a good position to hit opponents. Finally, pay attention to the map and plan your moves to avoid hazards and get the best item boxes."
+        "question": "Tell me about Mario's friends.",
+        "answer": "Mario has several friends who often join him on his adventures, including Luigi, Princess Peach, Yoshi, and Toad. Each character contributes unique skills and qualities to the team."
+      },
+      {
+        "question": "What is Mario's favorite power-up?",
+        "answer": "Mario's favorite power-up varies, but he often enjoys using the Super Mushroom. It allows him to grow in size, providing added protection and strength."
+      },
+      {
+        "question": "Tell me about Mario Kart.",
+        "answer": "Mario Kart is a popular racing game featuring Mario and his friends. Players race against each other on colorful tracks, using items and power-ups to gain an advantage. Mario Kart has become a beloved spin-off series in the Mario franchise."
       }
     ]
   },
   {
+    "tag": "luigi_info",
     "dialog": [
       {
-        "role": "user",
-        "content": "I'd like some tips for beating challenging levels in Super Mario World.",
-        "intent": "Strategy_tips"
-      },
-      {
-        "role": "assistant",
-        "content": "Of course! In Super Mario World, some levels can be quite challenging. It's essential to practice precision jumps and get familiar with the mechanics of power-ups like the Cape Feather. Additionally, explore each level thoroughly to find hidden secrets and power-ups that can make tough levels more manageable. And don't be afraid to take your time \u2013 sometimes, patience and careful planning are key to success."
+        "question": "What is Luigi's favorite pastime?",
+        "answer": "Luigi enjoys exploring haunted places and capturing ghosts. Despite his initial fear, he shows bravery in pursuing paranormal adventures. In his free time, Luigi also practices his jump, trying to match Mario's iconic jumping skills."
       }
     ]
   },
   {
+    "tag": "bowser_info",
     "dialog": [
       {
-        "role": "user",
-        "content": "I'm looking for some strategic advice in Mario Kart Tour. Any tips?",
-        "intent": "Strategy_tips"
+        "question": "What is Bowser's favorite hobby?",
+        "answer": "Bowser's favorite hobby is plotting elaborate schemes to take over the Mushroom Kingdom. He enjoys devising creative traps and challenges for Mario, making each encounter a unique and memorable experience."
+      }
+    ]
+  },
+  {
+    "tag": "peach_info",
+    "dialog": [
+      {
+        "question": "Tell me about Princess Peach's kingdom.",
+        "answer": "The Mushroom Kingdom, ruled by Princess Peach, is a vibrant and colorful land inhabited by various friendly characters. It is often the setting for Mario's adventures, featuring diverse landscapes, challenging levels, and iconic locations like Peach's Castle."
       },
       {
-        "role": "assistant",
-        "content": "In Mario Kart Tour, it's crucial to learn the tracks and master the drift mechanics. Take advantage of each track's unique features and shortcuts. Use your items strategically \u2013 if you're in the lead, consider holding defensive items, and if you're behind, use offensive items to catch up. Building a diverse collection of drivers, karts, and gliders is also important as it can give you advantages on different tours. And don't forget to complete the daily challenges for rewards."
+        "question": "What is Princess Peach's favorite activity?",
+        "answer": "Princess Peach enjoys organizing royal events and celebrations in the Mushroom Kingdom. She takes pleasure in bringing joy to her subjects and creating a harmonious and festive atmosphere."
+      }
+    ]
+  },
+  {
+    "tag": "yoshi_info",
+    "dialog": [
+      {
+        "question": "What is Yoshi's favorite game to play?",
+        "answer": "Yoshi enjoys playing games that involve collecting items and exploring colorful environments. His favorite game is a friendly race with Mario and friends, showcasing his speed and agility."
+      }
+    ]
+  },
+  {
+    "tag": "toad_info",
+    "dialog": [
+      {
+        "question": "Tell me about Captain Toad.",
+        "answer": "Captain Toad is a brave explorer and leader of the Toad Brigade. He embarks on adventures to collect Power Stars and treasures. Despite not being able to jump, Captain Toad relies on wit and problem-solving to overcome obstacles."
+      },
+      {
+        "question": "What is Toad's favorite hobby?",
+        "answer": "Toad enjoys gardening and cultivating various types of mushrooms in the Mushroom Kingdom. His passion for nature is reflected in the vibrant flora surrounding Princess Peach's castle."
+      }
+    ]
+  },
+  {
+    "tag": "wario_info",
+    "dialog": [
+      {
+        "question": "Tell me about WarioWare, Inc.",
+        "answer": "WarioWare, Inc. is a series of video games featuring Wario and his friends. The games are known for their fast-paced, microgame format, where players quickly complete short challenges. WarioWare showcases Wario's entrepreneurial spirit and love of chaotic fun."
+      },
+      {
+        "question": "What is Wario's favorite treasure?",
+        "answer": "Wario's favorite treasure is the legendary and mythical Golden Garlic. He believes that possessing this rare item will bring him unparalleled wealth and fortune."
+      }
+    ]
+  },
+  {
+    "tag": "koopa_info",
+    "dialog": [
+      {
+        "question": "What is Goomba's favorite activity?",
+        "answer": "Goombas don't have complex hobbies or activities. Their primary focus is patrolling their designated areas and attempting to impede Mario's progress. Despite their simplicity, they play a consistent role as adversaries in the Mushroom Kingdom."
+      }
+    ]
+  },
+  {
+    "tag": "donkey_kong_info",
+    "dialog": [
+      {
+        "question": "What is Donkey Kong's favorite fruit?",
+        "answer": "Donkey Kong's favorite fruit is the banana. He has a particular affinity for bananas and often goes to great lengths to collect them. Bananas are not only a tasty treat for Donkey Kong but also a symbol of his adventures."
+      }
+    ]
+  },
+  {
+    "tag": "rosalina_info",
+    "dialog": [
+      {
+        "question": "Tell me about the Lumas.",
+        "answer": "The Lumas are star-like creatures under the care of Rosalina. They are known for their childlike innocence and playful nature. Lumas play a significant role in the 'Super Mario Galaxy' series, assisting Mario on his quest to save Princess Peach."
+      },
+      {
+        "question": "What is Rosalina's favorite constellation?",
+        "answer": "Rosalina's favorite constellation is the Celestial Compass. It serves as a guide for her travels through the cosmos and holds sentimental value."
+      }
+    ]
+  },
+  {
+    "tag": "game_strategy",
+    "dialog": [
+      {
+        "question": "Any FAQs for Mario games?",
+        "answer": "Common FAQs include troubleshooting technical issues, finding specific power-ups, and unlocking hidden levels. Check online forums and guides for community-driven answers to frequently asked questions, and share your own tips with fellow players."
+      },
+      {
+        "question": "How can I improve my platforming skills in Mario games?",
+        "answer": "Practice is key to improving platforming skills. Focus on mastering different jump types, such as regular jumps, spin jumps, and wall jumps. Experiment with the physics of the game to perform precise maneuvers and reach challenging areas."
+      },
+      {
+        "question": "What's the significance of collecting coins in Mario games?",
+        "answer": "Collecting coins not only contributes to your score but also provides extra lives. In some games, reaching a certain coin threshold may unlock secret areas or power-ups. Coins are a valuable resource for Mario's ongoing adventures."
+      }
+    ]
+  },
+  {
+    "tag": "faqs",
+    "dialog": [
+      {
+        "question": "How can I access bonus areas in Mario games?",
+        "answer": "Bonus areas are often found by entering specific pipes, jumping on hidden blocks, or discovering alternate routes. Keep an eye out for suspicious-looking areas, and experiment with different actions, such as hitting blocks or exploring pipes."
+      },
+      {
+        "question": "What should I do if I get stuck on a level?",
+        "answer": "If you're stuck on a level, take a break and come back with a fresh perspective. Watch gameplay videos or consult online guides for tips and strategies. Sometimes, discussing challenges with fellow players on forums can provide valuable insights."
+      },
+      {
+        "question": "How can I find community-driven answers for Mario game-related questions?",
+        "answer": "For community-driven answers, join online forums and discussion boards dedicated to Mario games. Platforms like Reddit and official game forums are great places to ask questions, share tips, and connect with experienced players."
       }
     ]
   }
+  
 ]
